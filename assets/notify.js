@@ -1,7 +1,7 @@
 class Notify {
     constructor(container) {
         this.lang = {
-            from: "depuis",
+            from: "from",
         };
 
         this.container = document.querySelector(container);
@@ -63,15 +63,15 @@ class Notify {
 const data = [
     {
         name: "Vernay Vio****",
-        address: "Anvers, Belgique",
-        desc: "Il a gagné une le service de table Mariefleur",
+        address: "London, United Kingdom",
+        desc: "He won the Mariefleur table service",
         img: "./assets/prize.png",
         time: "15 sec",
     },
     {
         name: "Solaina La****",
-        address: "Bruxelles, Belgique",
-        desc: "Il a gagné une le service de table Mariefleur.",
+        address: "Birmingham, United Kingdom",
+        desc: "He won the Mariefleur table service.",
         img: "./assets/prize.png",
         time: "25 sec",
     },

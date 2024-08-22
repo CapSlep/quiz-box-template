@@ -50,38 +50,38 @@ const siteKey = "amazon-en";
   const reviewsArr = [
     {
       name: "Josefien",
-      time: "Il y a 1 jour",
-      header: "C'est inattendu!",
+      time: "1 day ago",
+      header: "It's unexpected!",
       product: "264687820",
       image: "./assets/1.png",
       // review: "Hier, j'ai quitté une demande, mais ma sœur a reçu toute ma mystérieuse boîte.",
     },
     {
       name: "Anton",
-      time: "Il y a 2 jours",
-      header: "Fantastique! Je suis sans voix.",
+      time: "There are 2jours",
+      header: "Fantastic!I am speechless.",
       product: "264687890",
       image: "./assets/2.png",
       // review: "J'ai participé à la vente et aujourd'hui j'ai reçu ma mystérieuse boîte, regardez combien de choses il y a.",
     },
     {
       name: "Jan",
-      time: "Il y a 2 jours",
-      header: "J'aime ça.",
+      time: "2 days ago",
+      header: "I like that.",
       product: "264687830",
       // review: "Merci à Amazon pour cette vente, je viens de gagner la mystérieuse boîte Amazon dans la première tentative.",
     },
     {
       name: "Nico",
-      time: "Il y a 4 jours",
-      header: "Juste génial",
+      time: "4 days ago",
+      header: "Just great",
       image: "./assets/3.png",
-      // review: "C'est vrai, ils m'ont juste apporté le paquet, je ne peux toujours pas croire que j'avais tant de gens en seulement 1.95€.",
+      // review: "C'est vrai, ils m'ont juste apporté le paquet, je ne peux toujours pas croire que j'avais tant de gens en seulement £1.99.",
     },
     {
       name: "Jackson",
-      time: "Il y a 7 jours",
-      header: "Wow, je suis vraiment impressionné par ce produit!",
+      time: "7 days ago",
+      header: "Wow, I'm really impressed by this product!",
       product: "264687840",
       image: "./assets/4.png",
       // review: "La livraison est restée deux jours, mais je suis toujours très satisfait de l'achat!",
@@ -92,7 +92,7 @@ const siteKey = "amazon-en";
     reviews: reviewsArr,
     rr: "Notes et opinions",
     percent: "99%",
-    rec: "Témoignages de clients qui ont reçu le produit",
+    rec: "Testimonials from customers who received the product",
   };
 
   const questions = {
