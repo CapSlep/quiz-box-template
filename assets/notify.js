@@ -64,14 +64,14 @@ const data = [
     {
         name: "Vernay Vio****",
         address: "Anvers, Belgique",
-        desc: "Il a gagné une mystérieuse boîte Amazon",
+        desc: "Il a gagné une le service de table Mariefleur",
         img: "./assets/prize.png",
         time: "15 sec",
     },
     {
         name: "Solaina La****",
         address: "Bruxelles, Belgique",
-        desc: "Il a gagné une mystérieuse boîte Amazon.",
+        desc: "Il a gagné une le service de table Mariefleur.",
         img: "./assets/prize.png",
         time: "25 sec",
     },

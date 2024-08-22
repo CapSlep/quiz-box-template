@@ -132,9 +132,6 @@ const reviewsInit = () => {
         const titleEl = document.createElement("b");
         titleEl.innerText = r.header;
 
-        const textEl = document.createElement("p");
-        textEl.classList.add("mt-2");
-        textEl.innerText = r.review;
 
         const imgDivEl = document.createElement("div");
         imgDivEl.classList.add("comment-img");
@@ -173,7 +170,13 @@ const reviewsInit = () => {
 
         reviewEl.appendChild(headerEl);
         reviewEl.appendChild(titleEl);
-        reviewEl.appendChild(textEl);
+
+        if (r?.review) {
+            const textEl = document.createElement("p");
+            textEl.classList.add("mt-2");
+            textEl.innerText = r.review;
+            reviewEl.appendChild(textEl);
+        }
         if (r?.image != null) reviewEl.appendChild(imgDivEl);
         if (r?.product != null && getProductById(r.product) != null)
             reviewEl.appendChild(productDivEl);
